@@ -1,0 +1,16 @@
+{
+  "platform": "gitlab",
+  "api_token_secret": "iam-remediation/gitlab-token",
+  "base_url": "https://gitlab.example.com",
+  "iac_repository": "org/iac-repo",
+  "issue_labels": ["security", "iam-remediation"],
+  "pr_labels": ["security", "iam-remediation", "automated"],
+  "assignee_ids": [],
+  "approval_required": true,
+  "bedrock_model": "anthropic.claude-3-sonnet-20240229-v1:0",
+  "bedrock_region": "us-east-1",
+  "enable_code_generation": true,
+  "enable_policy_summary": true,
+  "max_findings_per_run": 50,
+  "dry_run": false
+}

@@ -1,0 +1,97 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Lambda packaging - vendored dependencies
+lambda/process_findings/package/
+lambda/process_findings/lambda_deployment.zip
+lambda/process_findings/annotated_types/
+lambda/process_findings/annotated_types-*.dist-info/
+lambda/process_findings/anthropic/
+lambda/process_findings/anthropic-*.dist-info/
+lambda/process_findings/anyio/
+lambda/process_findings/anyio-*.dist-info/
+lambda/process_findings/bin/
+lambda/process_findings/boto3/
+lambda/process_findings/boto3-*.dist-info/
+lambda/process_findings/botocore/
+lambda/process_findings/botocore-*.dist-info/
+lambda/process_findings/certifi/
+lambda/process_findings/certifi-*.dist-info/
+lambda/process_findings/charset_normalizer/
+lambda/process_findings/charset_normalizer-*.dist-info/
+lambda/process_findings/dateutil/
+lambda/process_findings/distro/
+lambda/process_findings/distro-*.dist-info/
+lambda/process_findings/docstring_parser/
+lambda/process_findings/docstring_parser-*.dist-info/
+lambda/process_findings/exceptiongroup/
+lambda/process_findings/exceptiongroup-*.dist-info/
+lambda/process_findings/h11/
+lambda/process_findings/h11-*.dist-info/
+lambda/process_findings/httpcore/
+lambda/process_findings/httpcore-*.dist-info/
+lambda/process_findings/httpx/
+lambda/process_findings/httpx-*.dist-info/
+lambda/process_findings/idna/
+lambda/process_findings/idna-*.dist-info/
+lambda/process_findings/jiter/
+lambda/process_findings/jiter-*.dist-info/
+lambda/process_findings/jmespath/
+lambda/process_findings/jmespath-*.dist-info/
+lambda/process_findings/pydantic/
+lambda/process_findings/pydantic-*.dist-info/
+lambda/process_findings/pydantic_core/
+lambda/process_findings/pydantic_core-*.dist-info/
+lambda/process_findings/python_dateutil-*.dist-info/
+lambda/process_findings/requests/
+lambda/process_findings/requests-*.dist-info/
+lambda/process_findings/s3transfer/
+lambda/process_findings/s3transfer-*.dist-info/
+lambda/process_findings/six-*.dist-info/
+lambda/process_findings/six.py
+lambda/process_findings/sniffio/
+lambda/process_findings/sniffio-*.dist-info/
+lambda/process_findings/typing_extensions-*.dist-info/
+lambda/process_findings/typing_extensions.py
+lambda/process_findings/typing_inspection/
+lambda/process_findings/typing_inspection-*.dist-info/
+lambda/process_findings/urllib3/
+lambda/process_findings/urllib3-*.dist-info/
+*.zip
+
+# CDK
+cdk.out/
+.cdk.staging/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.venv/
+venv/
+
+# Secrets (never commit)
+*.pem
+*.key
+
+# Debug/test response files
+response.json
+
+# Config (use .example files as templates)
+config/ci_cd_config.json
+config/exclusions.json

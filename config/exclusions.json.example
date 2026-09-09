@@ -1,0 +1,21 @@
+{
+  "excluded_roles": [
+    "arn:aws:iam::ACCOUNT_ID:role/BreakGlassRole",
+    "arn:aws:iam::ACCOUNT_ID:role/ServiceLinkedRole"
+  ],
+  "excluded_permissions": [
+    "iam:*",
+    "sts:AssumeRole",
+    "organizations:*"
+  ],
+  "excluded_by_tag": {
+    "Environment": ["production"],
+    "NoRemediation": ["true"],
+    "CriticalService": ["true"]
+  },
+  "min_unused_days": 30,
+  "approval_required_for_tags": {
+    "Sensitive": ["true"],
+    "Admin": ["true"]
+  }
+}
