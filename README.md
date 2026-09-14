@@ -1,4 +1,4 @@
-# Operationalizing Least Privilege: Automating IAM Permission Remediation Through Infrastructure Context
+# Operationalizing least privilege: Automate IAM remediation through your CI/CD pipeline
 
 > **Note:** This is a sample solution for educational purposes. Any applications you integrate these examples into should be thoroughly tested, secured, and optimized according to your organization's security standards and policies before deploying to production.
 
